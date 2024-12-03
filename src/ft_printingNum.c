@@ -54,7 +54,7 @@ void	print_hex(t_data *data, int uppercase)
 		base = "0123456789abcdef";
 	str = ft_uitoa_base(value, base);
 	if (!str)
-		return (0);
+		return ;
 	print_str(data, str);
 	free(str);
 }
